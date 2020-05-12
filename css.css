@@ -1,0 +1,112 @@
+
+	body {
+
+		background-image: url("bildes/aizmugure.png");
+		background-size: cover;
+		background-position: top center;
+	}
+
+
+	body, footer {
+		color: rgba(255, 255, 255);
+		font-family:  Helvetica;
+		font-size: 10pt;
+
+	}
+
+	
+
+	a {
+
+		text-decoration: none;
+
+	}
+	
+
+h3 {
+		color: #ffffff;
+		font-size: 7pt;
+
+
+	}
+
+	.bildes {
+
+		display: flex;
+		flex-direction: row;
+
+
+	}
+
+		.bildes a {
+			display: block;
+			width:100%;
+			margin: 0 0 2em 0;
+			text-align: center;
+			background-color: rgba(199, 199, 199.075);
+			overflow: hidden;
+		}
+
+			.bildes a img {
+				display: block;
+				width:100%;
+	
+			}
+
+
+
+		.bildes > div {
+	
+			flex-direction: column;
+			width: calc(100% / 3);
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+
+	#augša	{
+		text-align: center;
+		padding: 0em 0 5.5em 0;
+		
+	}
+
+		#augša h1 {
+			color: #ffffff;
+					font-size: 7pt;
+		}
+
+		#augša .logo {
+
+			display: inline-block;
+
+		}
+
+			#augša .logo img {
+		
+				display: block;
+				width:30em;
+			}
+			
+			 #augša .ikonas img {
+           display: block;
+				width:2em;
+		   display: inline-block;
+		   margin: 1em 0 1em 1em;
+                
+            }
+
+	#apakša {
+		text-align: center;
+		padding: 4em 0 4em 0;
+		
+	}
+
+		#apakša:before {
+			content: '';
+			border-top: solid 1px rgba(255, 255, 255);
+			width: 140em;
+			display: block;
+			margin: 0 auto 3em auto;
+			padding: none;
+		}
+
